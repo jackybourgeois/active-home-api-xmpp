@@ -66,6 +66,21 @@ import java.util.UUID;
 @ComponentType
 public class XMPPAPI extends API {
 
+    @Param(defaultValue = "An XMPP access to Active Home.")
+    private String description;
+
+    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.png")
+    private String img;
+
+    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.md")
+    private String doc;
+
+    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.kevs")
+    private String demoScript;
+
+    @Param(defaultValue = "/activehome-api-xmpp")
+    private String src;
+
     @Param(defaultValue = "jackybourgeois.com")
     private String domain;
     @Param(defaultValue = "92.222.26.130")
