@@ -1,3 +1,3 @@
 # Xmpp API
 
-An access to Active Home via XMPP.
+An XMPP access to Active Home.
