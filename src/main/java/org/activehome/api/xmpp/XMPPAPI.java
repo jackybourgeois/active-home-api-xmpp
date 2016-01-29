@@ -6,7 +6,7 @@ package org.activehome.api.xmpp;
  * $Id:$
  * $HeadURL:$
  * %%
- * Copyright (C) 2016 org.activehome
+ * Copyright (C) 2016 Active Home Project
  * %%
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as
@@ -57,31 +57,18 @@ import java.util.HashMap;
 import java.util.UUID;
 
 /**
- * XMPP API - allow the system to receive and send Message
- * through an XMPP connection.
- *
  * @author Jacky Bourgeois
  * @version %I%, %G%
  */
 @ComponentType
-public class XMPPAPI extends API {
+public class XmppAPI extends API {
 
-    @Param(defaultValue = "An XMPP access to Active Home.")
+    @Param(defaultValue = "allow the system to receive and send Message through an XMPP connection.")
     private String description;
-
-    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.png")
-    private String img;
-
-    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.md")
-    private String doc;
-
-    @Param(defaultValue = "/activehome-api-xmpp/master/docs/xmppAPI.kevs")
-    private String demoScript;
-
-    @Param(defaultValue = "/activehome-api-xmpp")
+    @Param(defaultValue = "/active-home-api-xmpp")
     private String src;
 
-    @Param(defaultValue = "jackybourgeois.com")
+    @Param(defaultValue = "active-home.org")
     private String domain;
     @Param(defaultValue = "92.222.26.130")
     private String host;
